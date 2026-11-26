@@ -1,0 +1,373 @@
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> gobuster dir -u https://medirozahospital.com -w /usr/share/wordlists/dirb/common.txt -x php,html,bak,txt
+===============================================================
+Gobuster v3.8.2
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://medirozahospital.com
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.8.2
+[+] Extensions:              php,html,bak,txt
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+Progress: 0 / 1 (0.00%)
+2026/11/22 10:01:49 error on running gobuster on https://medirozahospital.com/: timeout occurred during the request
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> nmap -sC -sV -p- medirozahospital.com -oN nmap
+Starting Nmap 7.991 ( https://nmap.org ) at 2026-11-22 10:02 -0500
+Stats: 0:00:00 elapsed; 0 hosts completed (0 up), 0 undergoing Script Pre-Scan
+NSE Timing: About 0.00% done
+Stats: 0:00:01 elapsed; 0 hosts completed (0 up), 0 undergoing Host Discovery
+Parallel DNS resolution of 1 host. Timing: About 0.00% done
+Stats: 0:00:01 elapsed; 0 hosts completed (0 up), 0 undergoing Host Discovery
+Parallel DNS resolution of 1 host. Timing: About 0.00% done
+Stats: 0:00:02 elapsed; 0 hosts completed (0 up), 0 undergoing Host Discovery
+Parallel DNS resolution of 1 host. Timing: About 0.00% done
+Stats: 0:00:02 elapsed; 0 hosts completed (0 up), 0 undergoing Host Discovery
+Parallel DNS resolution of 1 host. Timing: About 0.00% done
+Stats: 0:00:03 elapsed; 0 hosts completed (0 up), 0 undergoing Host Discovery
+Parallel DNS resolution of 1 host. Timing: About 0.00% done
+Stats: 0:00:03 elapsed; 0 hosts completed (0 up), 0 undergoing Host Discovery
+Parallel DNS resolution of 1 host. Timing: About 0.00% done
+Stats: 0:00:04 elapsed; 0 hosts completed (0 up), 0 undergoing Host Discovery
+Parallel DNS resolution of 1 host. Timing: About 0.00% done
+Failed to resolve "medirozahospital.com".
+WARNING: No targets were specified, so 0 hosts scanned.
+Nmap done: 0 IP addresses (0 hosts up) scanned in 5.12 seconds
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> ^C                                                                                                                                                                 
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> gobuster dir -u https://medirozahospital.com -w /usr/share/wordlists/dirb/common.txt -x php,html,bak,txt                                                           
+===============================================================
+Gobuster v3.8.2
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://medirozahospital.com
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.8.2
+[+] Extensions:              html,bak,txt,php
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+Progress: 0 / 1 (0.00%)
+2026/11/22 10:02:34 error on running gobuster on https://medirozahospital.com/: timeout occurred during the request
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> gobuster dir -u https://medirozahospital.com -w /usr/share/wordlists/dirb/common.txt -x php,html,bak,txt                                                           
+===============================================================
+Gobuster v3.8.2
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://medirozahospital.com
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.8.2
+[+] Extensions:              txt,php,html,bak
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+Progress: 0 / 1 (0.00%)
+2026/11/22 10:03:06 error on running gobuster on https://medirozahospital.com/: timeout occurred during the request
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> dig medirozahospital.com +short                                                                                                                                    
+;; communications error to 192.168.10.2#53: timed out
+;; communications error to 192.168.10.2#53: timed out
+;; communications error to 192.168.10.2#53: timed out
+;; no servers could be reached
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> nslookup medirozahospital.com                                                                                                                                      
+;; communications error to 192.168.10.2#53: timed out
+;; communications error to 192.168.10.2#53: timed out
+;; communications error to 192.168.10.2#53: timed out
+;; no servers could be reached
+
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> ping -c 4 medirozahospital.com                                                                                                                                     
+/usr/bin/ping: medirozahospital.com: Temporary failure in name resolution
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> curl -v https://medirozahospital.com                                                                                                                               
+* Could not resolve host: medirozahospital.com
+* Could not resolve host: medirozahospital.com
+* Could not resolve: medirozahospital.com:443
+* closing connection #0
+curl: (6) Could not resolve host: medirozahospital.com
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> curl -v -k https://medirozahospital.com                                                                                                                            
+* Could not resolve host: medirozahospital.com
+* Could not resolve host: medirozahospital.com
+* Could not resolve: medirozahospital.com:443
+* closing connection #0
+curl: (6) Could not resolve host: medirozahospital.com
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> ip a                                                                                                                                                               
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:31:56:45 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.10.128/24 brd 192.168.10.255 scope global dynamic noprefixroute eth0
+       valid_lft 1106sec preferred_lft 1106sec
+    inet6 fe80::20c:29ff:fe31:5645/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    link/ether 36:7f:e9:0e:96:fb brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> ip route                                                                                                                                                           
+default via 192.168.10.2 dev eth0 proto dhcp src 192.168.10.128 metric 100 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+192.168.10.0/24 dev eth0 proto kernel scope link src 192.168.10.128 metric 100 
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> cat /etc/resolv.conf                                                                                                                                               
+# Generated by NetworkManager
+search localdomain
+nameserver 192.168.10.2
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> ping -c 4 192.168.10.2                                                                                                                                             
+PING 192.168.10.2 (192.168.10.2) 56(84) bytes of data.
+64 bytes from 192.168.10.2: icmp_seq=1 ttl=128 time=1.13 ms
+64 bytes from 192.168.10.2: icmp_seq=2 ttl=128 time=0.262 ms
+64 bytes from 192.168.10.2: icmp_seq=3 ttl=128 time=0.493 ms
+64 bytes from 192.168.10.2: icmp_seq=4 ttl=128 time=0.888 ms
+
+--- 192.168.10.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3062ms
+rtt min/avg/max/mdev = 0.262/0.692/1.127/0.336 ms
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> ping -c 4 8.8.8.8                                                                                                                                                  
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=128 time=197 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=128 time=144 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=128 time=168 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=128 time=61.4 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 61.437/142.580/197.029/50.445 ms
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> sudo sh -c 'echo "nameserver 8.8.8.8" >> /etc/resolv.conf'                                                                                                         
+[sudo] password for tracyoozie: 
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> sudo sh -c 'echo "nameserver 8.8.8.8" >> /etc/resolv.conf'                                                                                                         
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> cat /etc/resolv.conf                                                                                                                                               
+# Generated by NetworkManager
+search localdomain
+nameserver 192.168.10.2
+nameserver 8.8.8.8
+nameserver 8.8.8.8
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> dig medirozahospital.com +short                                                                                                                                    
+;; communications error to 192.168.10.2#53: timed out
+;; communications error to 192.168.10.2#53: timed out
+;; communications error to 192.168.10.2#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; no servers could be reached
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> sudo iptables -L -n -v                                                                                                                                             
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DOCKER-USER  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 DOCKER-FORWARD  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain DOCKER (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  !docker0 docker0  0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-BRIDGE (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DOCKER     all  --  *      docker0  0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-CT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     all  --  *      docker0  0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+
+Chain DOCKER-FORWARD (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DOCKER-CT  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 DOCKER-ISOLATION-STAGE-1  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 DOCKER-BRIDGE  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     all  --  docker0 *       0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-ISOLATION-STAGE-1 (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DOCKER-ISOLATION-STAGE-2  all  --  docker0 !docker0  0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-ISOLATION-STAGE-2 (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  *      docker0  0.0.0.0/0            0.0.0.0/0           
+
+Chain DOCKER-USER (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> sudo ufw status                                                                                                                                                    
+sudo: ufw: command not found
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> sudo ufw status                                                                                                                                                    
+sudo: ufw: command not found
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> dig +tcp medirozahospital.com @8.8.8.8                                                                                                                             
+ParserError: 
+Line |
+   1 |  dig +tcp medirozahospital.com @8.8.8.8
+     |                                   ~
+     | Missing property name after reference operator.
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> dig +tcp medirozahospital.com @192.168.10.2                                                                                                                        
+ParserError: 
+Line |
+   1 |  dig +tcp medirozahospital.com @192.168.10.2
+     |                                     ~
+     | Missing property name after reference operator.
+
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> bash                                                                                                                                                               
+┌──(tracyoozie㉿kali)-[~]
+└─$ dig +tcp medirozahospital.com '@8.8.8.8'                                                                                                                             
+
+; <<>> DiG 9.20.27-2-Debian <<>> +tcp medirozahospital.com @8.8.8.8
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59159
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;medirozahospital.com.          IN      A
+
+;; ANSWER SECTION:
+medirozahospital.com.   14400   IN      A       199.188.201.16
+
+;; Query time: 120 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (TCP)
+;; WHEN: Sun Nov 22 10:15:22 EST 2026
+;; MSG SIZE  rcvd: 65
+
+
+┌──(tracyoozie㉿kali)-[~]
+└─$ dig +tcp medirozahospital.com '@192.168.10.2'                                                                                                                        
+;; Connection to 192.168.10.2#53(192.168.10.2) for medirozahospital.com failed: timed out.
+;; no servers could be reached
+
+; <<>> DiG 9.20.27-2-Debian <<>> +tcp medirozahospital.com @192.168.10.2
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29152
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 6b091fecc3c9baeb010000006b030726721997954614082f (good)
+;; QUESTION SECTION:
+;medirozahospital.com.          IN      A
+
+;; ANSWER SECTION:
+medirozahospital.com.   10535   IN      A       199.188.201.16
+
+;; Query time: 64 msec
+;; SERVER: 192.168.10.2#53(192.168.10.2) (TCP)
+;; WHEN: Sun Nov 22 10:15:50 EST 2026
+;; MSG SIZE  rcvd: 93
+
+
+┌──(tracyoozie㉿kali)-[~]
+└─$ bash                                                                                                                                                                 
+┌──(tracyoozie㉿kali)-[~]
+└─$ dig medizorahospital.com
+
+; <<>> DiG 9.20.27-2-Debian <<>> medizorahospital.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 37823
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 1232
+; COOKIE: a57fd18347bc6b06010000006b03083da4468dbc93726149 (good)
+;; QUESTION SECTION:
+;medizorahospital.com.          IN      A
+
+;; AUTHORITY SECTION:
+com.                    5       IN      SOA     a.gtld-servers.net. nstld.verisign-grs.com. 1795360798 1800 900 604800 900
+
+;; Query time: 236 msec
+;; SERVER: 192.168.10.2#53(192.168.10.2) (UDP)
+;; WHEN: Sun Nov 22 10:20:29 EST 2026
+;; MSG SIZE  rcvd: 153
+
+
+┌──(tracyoozie㉿kali)-[~]
+└─$ nmap -sC -sV -p- -T4 medirozahospital.com -oN nmap_full.txt                                                                                                          
+Starting Nmap 7.991 ( https://nmap.org ) at 2026-11-22 10:21 -0500
+Warning: 199.188.201.16 giving up on port because retransmission cap hit (6).
+Nmap scan report for medirozahospital.com (199.188.201.16)
+Host is up (0.00087s latency).
+rDNS record for 199.188.201.16: server274-1.web-hosting.com
+Not shown: 63573 closed tcp ports (reset), 1951 filtered tcp ports (no-response)
+PORT     STATE SERVICE    VERSION
+21/tcp   open  tcpwrapped
+53/tcp   open  tcpwrapped
+80/tcp   open  tcpwrapped
+110/tcp  open  tcpwrapped
+143/tcp  open  tcpwrapped
+443/tcp  open  tcpwrapped
+587/tcp  open  tcpwrapped
+|_smtp-commands: Couldn't establish connection on port 587
+993/tcp  open  tcpwrapped
+995/tcp  open  tcpwrapped
+2079/tcp open  tcpwrapped
+2083/tcp open  tcpwrapped
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1223.33 seconds
+
+┌──(tracyoozie㉿kali)-[~]
+└─$                                                                                                                                                                    

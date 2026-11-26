@@ -1,0 +1,132 @@
+──(tracyoozie㉿kali)-[~/mediroza]
+└─$ pdfinfo -upw '123456' dlamini.pdf                                                                                                                                
+Title:           Pathology Report - S. Dlamini
+Subject:         Full Blood Count
+Keywords:        pathology, fbc, patient report
+Author:          Mediroza Diagnostics Lab
+Creator:         Mediroza CMS 1.4.2
+Producer:        Mediroza Lab Reporting Module
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       yes (print:yes copy:yes change:yes addNotes:yes algorithm:RC4)
+Page size:       595.276 x 841.89 pts (A4)
+Page rot:        0
+File size:       3657 bytes
+Optimized:       no
+PDF version:     1.4
+
+┌──(tracyoozie㉿kali)-[~/mediroza]
+└─$                                                                                                                                                                      
+::1             ff02::1         ff02::2         ip6-allnodes    ip6-allrouters  ip6-localhost   ip6-loopback    kali            localhost       
+┌──(tracyoozie㉿kali)-[~/mediroza]
+└─$ pdfinfo -upw 'password' reddy.pdf
+Title:           Pathology Report - P. Reddy
+Subject:         Lipid Profile
+Keywords:        pathology, lipids, patient report
+Author:          Mediroza Diagnostics Lab
+Creator:         Mediroza CMS 1.4.2
+Producer:        Mediroza Lab Reporting Module
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       yes (print:yes copy:yes change:yes addNotes:yes algorithm:RC4)
+Page size:       595.276 x 841.89 pts (A4)
+Page rot:        0
+File size:       3611 bytes
+Optimized:       no
+PDF version:     1.4
+
+┌──(tracyoozie㉿kali)-[~/mediroza]
+└─$ pdfinfo -upw '!@#$%^&' thompson.pdf                                                                                                                                  
+Title:           Pathology Report - E. Thompson
+Subject:         Full Blood Count
+Keywords:        pathology, patient report
+Author:          j.malik
+Creator:         Mediroza CMS 1.4.2
+Producer:        Mediroza Lab Reporting Module
+Custom Metadata: yes
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       yes (print:yes copy:yes change:yes addNotes:yes algorithm:RC4)
+Page size:       595.276 x 841.89 pts (A4)
+Page rot:        0
+File size:       3735 bytes
+Optimized:       no
+PDF version:     1.4
+
+┌──(tracyoozie㉿kali)-[~/mediroza]
+└─$                                                                                                                                                                 
+
+
+
+┌──(tracyoozie㉿kali)-[~/mediroza]
+└─$                                                                                                                                                                      
+::1             ff02::1         ff02::2         ip6-allnodes    ip6-allrouters  ip6-localhost   ip6-loopback    kali            localhost       
+┌──(tracyoozie㉿kali)-[~/mediroza]
+└─$ exiftool -password '123456' dlamini.pdf
+ExifTool Version Number         : 13.55
+File Name                       : dlamini.pdf
+Directory                       : .
+File Size                       : 3.7 kB
+File Modification Date/Time     : 2026:11:22 12:13:23-05:00
+File Access Date/Time           : 2026:11:22 12:29:32-05:00
+File Inode Change Date/Time     : 2026:11:22 12:28:56-05:00
+File Permissions                : -rw-rw-r--
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.4
+Linearized                      : No
+Encryption                      : Standard V2.3 (128-bit)
+User Access                     : Print, Modify, Copy, Annotate, Fill forms, Extract, Assemble, Print high-res
+Page Count                      : 1
+Producer                        : Mediroza Lab Reporting Module
+Title                           : Pathology Report - S. Dlamini
+Author                          : Mediroza Diagnostics Lab
+Subject                         : Full Blood Count
+Creator                         : Mediroza CMS 1.4.2
+Keywords                        : pathology, fbc, patient report
+
+┌──(tracyoozie㉿kali)-[~/mediroza]
+└─$ exiftool -password 'password' reddy.pdf                                                                                                                              
+ExifTool Version Number         : 13.55
+File Name                       : reddy.pdf
+Directory                       : .
+File Size                       : 3.6 kB
+File Modification Date/Time     : 2026:11:22 12:22:47-05:00
+File Access Date/Time           : 2026:11:22 12:31:25-05:00
+File Inode Change Date/Time     : 2026:11:22 12:29:04-05:00
+File Permissions                : -rw-rw-r--
+File Type                       : PDF
+File Type Extension             : pdf
+MIME Type                       : application/pdf
+PDF Version                     : 1.4
+Linearized                      : No
+Encryption                      : Standard V2.3 (128-bit)
+User Access                     : Print, Modify, Copy, Annotate, Fill forms, Extract, Assemble, Print high-res
+Page Count                      : 1
+Producer                        : Mediroza Lab Reporting Module
+Title                           : Pathology Report - P. Reddy
+Author                          : Mediroza Diagnostics Lab
+Subject                         : Lipid Profile
+Creator                         : Mediroza CMS 1.4.2
+Keywords                        : pathology, lipids, patient report
+
+┌──(tracyoozie㉿kali)-[~/mediroza]
+└─$                                                                                                                        

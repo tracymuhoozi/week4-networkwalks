@@ -1,0 +1,278 @@
+┌──(tracyoozie㉿kali)-[/home/tracyoozie]
+└─PS> bash
+┌──(tracyoozie㉿kali)-[~]
+└─$ gobuster dir -u https://medirozahospital.com -w /usr/share/wordlists/dirb/common.txt -x php,html,bak,txt -k -t 20
+===============================================================
+Gobuster v3.8.2
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://medirozahospital.com
+[+] Method:                  GET
+[+] Threads:                 20
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.8.2
+[+] Extensions:              php,html,bak,txt
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+Progress: 0 / 1 (0.00%)
+2026/11/22 10:24:00 error on running gobuster on https://medirozahospital.com/: timeout occurred during the request
+
+┌──(tracyoozie㉿kali)-[~]
+└─$ gobuster dir -u https://medirozahospital.com -w /usr/share/wordlists/dirb/common.txt -x php,html,bak,txt -k -t 20
+===============================================================
+Gobuster v3.8.2
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://medirozahospital.com
+[+] Method:                  GET
+[+] Threads:                 20
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.8.2
+[+] Extensions:              php,html,bak,txt
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+Progress: 0 / 1 (0.00%)
+2026/11/22 10:24:15 error on running gobuster on https://medirozahospital.com/: timeout occurred during the request
+
+┌──(tracyoozie㉿kali)-[~]
+└─$ gobuster dir -u https://medirozahospital.com -w /usr/share/wordlists/dirb/common.txt -x php,html,bak,txt -k -t 20                                                    
+===============================================================
+Gobuster v3.8.2
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://medirozahospital.com
+[+] Method:                  GET
+[+] Threads:                 20
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.8.2
+[+] Extensions:              php,html,bak,txt
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+Progress: 18 / 23065 (0.08%)[ERROR] error on word .cache: timeout occurred during the request
+[ERROR] error on word .config.html: timeout occurred during the request
+Progress: 20 / 23065 (0.09%)[ERROR] error on word .cvs: timeout occurred during the request
+Progress: 21 / 23065 (0.09%)[ERROR] error on word .cvs.php: timeout occurred during the request
+[ERROR] error on word .cvs.html: timeout occurred during the request
+Progress: 23 / 23065 (0.10%)[ERROR] error on word .cvs.bak: timeout occurred during the request
+Progress: 24 / 23065 (0.10%)[ERROR] error on word .cvs.txt: timeout occurred during the request
+Progress: 25 / 23065 (0.11%)[ERROR] error on word .cvsignore: timeout occurred during the request
+Progress: 26 / 23065 (0.11%)[ERROR] error on word .cvsignore.php: timeout occurred during the request
+Progress: 27 / 23065 (0.12%)[ERROR] error on word .cvsignore.html: timeout occurred during the request
+Progress: 28 / 23065 (0.12%)[ERROR] error on word .cvsignore.bak: timeout occurred during the request
+Progress: 29 / 23065 (0.13%)[ERROR] error on word .cvsignore.txt: timeout occurred during the request
+Progress: 30 / 23065 (0.13%)[ERROR] error on word .forward: timeout occurred during the request
+Progress: 31 / 23065 (0.13%)[ERROR] error on word .forward.php: timeout occurred during the request
+.hta.html            (Status: 403) [Size: 1242]
+[ERROR] error on word .forward.html: timeout occurred during the request
+.git/HEAD            (Status: 403) [Size: 1242]
+.hta                 (Status: 403) [Size: 1242]
+.git/HEAD.php        (Status: 403) [Size: 1242]
+.hta.bak             (Status: 403) [Size: 1242]
+.git/HEAD.bak        (Status: 403) [Size: 1242]
+.git/HEAD.html       (Status: 403) [Size: 1242]
+.hta.php             (Status: 403) [Size: 1242]
+.git/HEAD.txt        (Status: 403) [Size: 1242]
+.hta.txt             (Status: 403) [Size: 1242]
+.htaccess            (Status: 403) [Size: 1242]
+.htaccess.php        (Status: 403) [Size: 1242]
+.htaccess.html       (Status: 403) [Size: 1242]
+.htaccess.bak        (Status: 403) [Size: 1242]
+.htaccess.txt        (Status: 403) [Size: 1242]
+.htpasswd.bak        (Status: 403) [Size: 1242]
+.htpasswd            (Status: 403) [Size: 1242]
+.htpasswd.txt        (Status: 403) [Size: 1242]
+.htpasswd.php        (Status: 403) [Size: 1242]
+.htpasswd.html       (Status: 403) [Size: 1242]
+[ERROR] error on word .forward.txt: timeout occurred during the request
+.svn                 (Status: 403) [Size: 1242]
+.svn/entries         (Status: 403) [Size: 1242]
+.svn/entries.html    (Status: 403) [Size: 1242]
+.svn/entries.bak     (Status: 403) [Size: 1242]
+.svn/entries.txt     (Status: 403) [Size: 1242]
+.svn/entries.php     (Status: 403) [Size: 1242]
+~adm.php             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~adm.php/]
+~adm.html            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~adm.html/]
+~adm                 (Status: 301) [Size: 795] [--> https://medirozahospital.com/~adm/]
+~adm.bak             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~adm.bak/]
+~adm.txt             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~adm.txt/]
+~admin               (Status: 301) [Size: 795] [--> https://medirozahospital.com/~admin/]
+~admin.php           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~admin.php/]
+~admin.html          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~admin.html/]
+~admin.bak           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~admin.bak/]
+~admin.txt           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~admin.txt/]
+~administrator       (Status: 301) [Size: 795] [--> https://medirozahospital.com/~administrator/]
+~administrator.php   (Status: 301) [Size: 795] [--> https://medirozahospital.com/~administrator.php/]
+~administrator.html  (Status: 301) [Size: 795] [--> https://medirozahospital.com/~administrator.html/]
+~amanda.html         (Status: 301) [Size: 795] [--> https://medirozahospital.com/~amanda.html/]
+~amanda.txt          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~amanda.txt/]
+~amanda              (Status: 301) [Size: 795] [--> https://medirozahospital.com/~amanda/]
+~administrator.txt   (Status: 301) [Size: 795] [--> https://medirozahospital.com/~administrator.txt/]
+~amanda.php          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~amanda.php/]
+~administrator.bak   (Status: 301) [Size: 795] [--> https://medirozahospital.com/~administrator.bak/]
+~amanda.bak          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~amanda.bak/]
+~apache              (Status: 301) [Size: 795] [--> https://medirozahospital.com/~apache/]
+~apache.php          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~apache.php/]
+~apache.html         (Status: 301) [Size: 795] [--> https://medirozahospital.com/~apache.html/]
+~bin                 (Status: 301) [Size: 795] [--> https://medirozahospital.com/~bin/]
+~apache.bak          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~apache.bak/]
+~apache.txt          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~apache.txt/]
+~bin.php             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~bin.php/]
+~bin.html            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~bin.html/]
+~bin.bak             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~bin.bak/]
+~bin.txt             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~bin.txt/]
+~ftp                 (Status: 301) [Size: 795] [--> https://medirozahospital.com/~ftp/]
+~ftp.html            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~ftp.html/]
+~ftp.php             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~ftp.php/]
+~ftp.bak             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~ftp.bak/]
+~ftp.txt             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~ftp.txt/]
+~guest.php           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~guest.php/]
+~guest.bak           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~guest.bak/]
+~guest               (Status: 301) [Size: 795] [--> https://medirozahospital.com/~guest/]
+~guest.html          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~guest.html/]
+~http                (Status: 301) [Size: 795] [--> https://medirozahospital.com/~http/]
+~http.php            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~http.php/]
+~http.html           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~http.html/]
+~http.txt            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~http.txt/]
+~httpd               (Status: 301) [Size: 795] [--> https://medirozahospital.com/~httpd/]
+~httpd.php           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~httpd.php/]
+~httpd.html          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~httpd.html/]
+~httpd.bak           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~httpd.bak/]
+~log.html            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~log.html/]
+~httpd.txt           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~httpd.txt/]
+~log                 (Status: 301) [Size: 795] [--> https://medirozahospital.com/~log/]
+~log.txt             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~log.txt/]
+~log.bak             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~log.bak/]
+~logs.php            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~logs.php/]
+~logs                (Status: 301) [Size: 795] [--> https://medirozahospital.com/~logs/]
+~logs.html           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~logs.html/]
+~lp.html             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~lp.html/]
+~lp.bak              (Status: 301) [Size: 795] [--> https://medirozahospital.com/~lp.bak/]
+~guest.txt           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~guest.txt/]
+~lp                  (Status: 301) [Size: 795] [--> https://medirozahospital.com/~lp/]
+~logs.txt            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~logs.txt/]
+~mail                (Status: 301) [Size: 795] [--> https://medirozahospital.com/~mail/]
+~mail.php            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~mail.php/]
+~mail.html           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~mail.html/]
+~mail.bak            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~mail.bak/]
+~nobody.html         (Status: 301) [Size: 795] [--> https://medirozahospital.com/~nobody.html/]
+~mail.txt            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~mail.txt/]
+~http.bak            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~http.bak/]
+~nobody.bak          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~nobody.bak/]
+~nobody              (Status: 301) [Size: 795] [--> https://medirozahospital.com/~nobody/]
+~nobody.txt          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~nobody.txt/]
+~log.php             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~log.php/]
+~operator.php        (Status: 301) [Size: 795] [--> https://medirozahospital.com/~operator.php/]
+~operator            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~operator/]
+~operator.txt        (Status: 301) [Size: 795] [--> https://medirozahospital.com/~operator.txt/]
+~operator.bak        (Status: 301) [Size: 795] [--> https://medirozahospital.com/~operator.bak/]
+~nobody.php          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~nobody.php/]
+~root                (Status: 301) [Size: 795] [--> https://medirozahospital.com/~root/]
+~logs.bak            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~logs.bak/]
+~root.html           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~root.html/]
+~root.bak            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~root.bak/]
+~root.txt            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~root.txt/]
+~root.php            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~root.php/]
+~lp.txt              (Status: 301) [Size: 795] [--> https://medirozahospital.com/~lp.txt/]
+~sys.php             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sys.php/]
+~sys.html            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sys.html/]
+~sys.bak             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sys.bak/]
+~lp.php              (Status: 301) [Size: 795] [--> https://medirozahospital.com/~lp.php/]
+~sys.txt             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sys.txt/]
+~sysadm.html         (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sysadm.html/]
+~sysadm              (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sysadm/]
+~sysadm.php          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sysadm.php/]
+~sysadmin            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sysadmin/]
+~sysadm.txt          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sysadm.txt/]
+~sysadm.bak          (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sysadm.bak/]
+~sysadmin.php        (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sysadmin.php/]
+~sysadmin.html       (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sysadmin.html/]
+~sysadmin.bak        (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sysadmin.bak/]
+~operator.html       (Status: 301) [Size: 795] [--> https://medirozahospital.com/~operator.html/]
+~sysadmin.txt        (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sysadmin.txt/]
+~test                (Status: 301) [Size: 795] [--> https://medirozahospital.com/~test/]
+~test.php            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~test.php/]
+~test.txt            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~test.txt/]
+~test.html           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~test.html/]
+~test.bak            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~test.bak/]
+~tmp                 (Status: 301) [Size: 795] [--> https://medirozahospital.com/~tmp/]
+~sys                 (Status: 301) [Size: 795] [--> https://medirozahospital.com/~sys/]
+~tmp.php             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~tmp.php/]
+~tmp.html            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~tmp.html/]
+~tmp.bak             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~tmp.bak/]
+~user.bak            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~user.bak/]
+~tmp.txt             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~tmp.txt/]
+~user                (Status: 301) [Size: 795] [--> https://medirozahospital.com/~user/]
+~user.html           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~user.html/]
+~user.php            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~user.php/]
+~user.txt            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~user.txt/]
+~webmaster           (Status: 301) [Size: 795] [--> https://medirozahospital.com/~webmaster/]
+~webmaster.php       (Status: 301) [Size: 795] [--> https://medirozahospital.com/~webmaster.php/]
+~www.txt             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~www.txt/]
+~www.bak             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~www.bak/]
+~webmaster.txt       (Status: 301) [Size: 795] [--> https://medirozahospital.com/~webmaster.txt/]
+~webmaster.bak       (Status: 301) [Size: 795] [--> https://medirozahospital.com/~webmaster.bak/]
+~webmaster.html      (Status: 301) [Size: 795] [--> https://medirozahospital.com/~webmaster.html/]
+~www.php             (Status: 301) [Size: 795] [--> https://medirozahospital.com/~www.php/]
+~www                 (Status: 301) [Size: 795] [--> https://medirozahospital.com/~www/]
+~www.html            (Status: 301) [Size: 795] [--> https://medirozahospital.com/~www.html/]
+about.html           (Status: 403) [Size: 1242]
+Progress: 1833 / 23065 (7.95%)[ERROR] error on word advanced.bak: timeout occurred during the request
+Progress: 1871 / 23065 (8.11%)[ERROR] error on word advertise: timeout occurred during the request
+Progress: 2348 / 23065 (10.18%)[ERROR] error on word archiv.html: timeout occurred during the request
+Progress: 2367 / 23065 (10.26%)[ERROR] error on word archivos.php: timeout occurred during the request
+[ERROR] error on word arquivos: timeout occurred during the request
+[ERROR] error on word arquivos.txt: timeout occurred during the request
+Progress: 2439 / 23065 (10.57%)[ERROR] error on word articles.bak: timeout occurred during the request
+[ERROR] error on word Articles.php: timeout occurred during the request
+Progress: 2546 / 23065 (11.04%)[ERROR] error on word asia.bak: timeout occurred during the request
+bandwidth            (Status: 301) [Size: 795] [--> https://medirozahospital.com/bandwidth/]
+cgi-bin              (Status: 301) [Size: 795] [--> https://medirozahospital.com/cgi-bin/]
+cgi-bin/             (Status: 403) [Size: 1242]
+cgi-sys              (Status: 301) [Size: 795] [--> https://medirozahospital.com/cgi-sys/]
+contact.html         (Status: 403) [Size: 1242]
+controlpanel         (Status: 403) [Size: 1242]
+cpanel               (Status: 403) [Size: 1242]
+index.html           (Status: 200) [Size: 5445]
+index.html           (Status: 200) [Size: 5445]
+java-sys             (Status: 301) [Size: 795] [--> https://medirozahospital.com/java-sys/]
+mailman              (Status: 301) [Size: 795] [--> https://medirozahospital.com/mailman/]
+old                  (Status: 301) [Size: 795] [--> https://medirozahospital.com/old/]
+pipermail            (Status: 301) [Size: 795] [--> https://medirozahospital.com/pipermail/]
+robots.txt           (Status: 200) [Size: 132]
+robots.txt           (Status: 200) [Size: 132]
+server-status        (Status: 403) [Size: 93]
+server-status.txt    (Status: 403) [Size: 93]
+server-status.bak    (Status: 403) [Size: 93]
+server-status.php    (Status: 403) [Size: 93]
+server-status.html   (Status: 403) [Size: 93]
+Progress: 18200 / 23065 (78.91%)[ERROR] error on word shim.html: timeout occurred during the request
+sitemap.xml          (Status: 200) [Size: 391]
+Progress: 18589 / 23065 (80.59%)[ERROR] error on word sink.php: timeout occurred during the request
+Progress: 18599 / 23065 (80.64%)[ERROR] error on word site.txt: timeout occurred during the request
+Progress: 18807 / 23065 (81.54%)[ERROR] error on word snippets: timeout occurred during the request
+staff                (Status: 301) [Size: 795] [--> https://medirozahospital.com/staff/]
+webmail              (Status: 403) [Size: 1242]
+wp-admin             (Status: 200) [Size: 745]
+wp-login.php         (Status: 200) [Size: 745]
+xmlrpc.php           (Status: 403) [Size: 93]
+xmlrpc.php           (Status: 403) [Size: 93]
+xmlrpc.php.php       (Status: 403) [Size: 93]
+xmlrpc.php.bak       (Status: 403) [Size: 93]
+xmlrpc.php.html      (Status: 403) [Size: 93]
+xmlrpc.php.txt       (Status: 403) [Size: 93]
+Progress: 23065 / 23065 (100.00%)
+===============================================================
+Finished
+===============================================================
+
+┌──(tracyoozie㉿kali)-[~]
+└─$                                                                                                                                                      

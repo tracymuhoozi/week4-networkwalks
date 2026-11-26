@@ -1,0 +1,397 @@
+whois medirozahospital.com
+   Domain Name: MEDIROZAHOSPITAL.COM
+   Registry Domain ID: 3132326963_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.namecheap.com
+   Registrar URL: http://www.namecheap.com
+   Updated Date: 2026-08-14T21:07:45Z
+   Creation Date: 2026-08-14T20:51:24Z
+   Registry Expiry Date: 2027-08-14T20:51:24Z
+   Registrar: NameCheap, Inc.
+   Registrar IANA ID: 1068
+   Registrar Abuse Contact Email: abuse@namecheap.com
+   Registrar Abuse Contact Phone: +1.6613102107
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Name Server: DNS1.NAMECHEAPHOSTING.COM
+   Name Server: DNS2.NAMECHEAPHOSTING.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of whois database: 2026-11-22T14:05:43Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+Domain name: medirozahospital.com
+Registry Domain ID: 3132326963_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.namecheap.com
+Registrar URL: http://www.namecheap.com
+Updated Date: 0001-01-01T00:00:00.00Z
+Creation Date: 2026-08-14T20:51:24.00Z
+Registrar Registration Expiration Date: 2027-08-14T20:51:24.00Z
+Registrar: NAMECHEAP INC
+Registrar IANA ID: 1068
+Registrar Abuse Contact Email: abuse@namecheap.com
+Registrar Abuse Contact Phone: +1.9854014545
+Reseller: NAMECHEAP INC
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Registry Registrant ID: 
+Registrant Name: Redacted for Privacy Purposes
+Registrant Organization: Privacy service provided by WITHHELD FOR PRIVACY LLC
+Registrant Street: 16192 Coastal Highway 
+Registrant City: Lewes
+Registrant State/Province: Delaware
+Registrant Postal Code: 19958
+Registrant Country: US
+Registrant Phone: +1.3022061391
+Registrant Phone Ext: 
+Registrant Fax: 
+Registrant Fax Ext: 
+Registrant Email: 304b9a5ce311452daf367cc83554d904.protect@withheldforprivacy.com
+Registry Admin ID: 
+Admin Name: Redacted for Privacy Purposes
+Admin Organization: Privacy service provided by WITHHELD FOR PRIVACY LLC
+Admin Street: 16192 Coastal Highway 
+Admin City: Lewes
+Admin State/Province: Delaware
+Admin Postal Code: 19958
+Admin Country: US
+Admin Phone: +1.3022061391
+Admin Phone Ext: 
+Admin Fax: 
+Admin Fax Ext: 
+Admin Email: 304b9a5ce311452daf367cc83554d904.protect@withheldforprivacy.com
+Registry Tech ID: 
+Tech Name: Redacted for Privacy Purposes
+Tech Organization: Privacy service provided by WITHHELD FOR PRIVACY LLC
+Tech Street: 16192 Coastal Highway 
+Tech City: Lewes
+Tech State/Province: Delaware
+Tech Postal Code: 19958
+Tech Country: US
+Tech Phone: +1.3022061391
+Tech Phone Ext: 
+Tech Fax: 
+Tech Fax Ext: 
+Tech Email: 304b9a5ce311452daf367cc83554d904.protect@withheldforprivacy.com
+Name Server: dns1.namecheaphosting.com
+Name Server: dns2.namecheaphosting.com
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2026-11-21T22:49:47.99Z <<<
+For more information on Whois status codes, please visit https://icann.org/epp
+
+┌──(tracyoozie㉿kali)-[~]
+└─$                   
+
+
+
+
+
+dig medirozahospital.com ANY                                                                                                          
+
+; <<>> DiG 9.20.27-2-Debian <<>> medirozahospital.com ANY
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53934
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 33c9be80837f14ba010000006b02f742ec0a6777550a40b1 (good)
+;; QUESTION SECTION:
+;medirozahospital.com.          IN      ANY
+
+;; ANSWER SECTION:
+medirozahospital.com.   172800  IN      NS      dns1.namecheaphosting.com.
+medirozahospital.com.   172800  IN      NS      dns2.namecheaphosting.com.
+medirozahospital.com.   3600    IN      HINFO   "RFC8482" ""
+
+;; Query time: 267 msec
+;; SERVER: 192.168.10.2#53(192.168.10.2) (TCP)
+;; WHEN: Sun Nov 22 09:08:02 EST 2026
+;; MSG SIZE  rcvd: 156
+
+
+┌──(tracyoozie㉿kali)-[~]
+└─$ dig medirozahospital.com MX
+
+; <<>> DiG 9.20.27-2-Debian <<>> medirozahospital.com MX
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19522
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 1232
+; COOKIE: ccfb0e7575dbdb70010000006b02f772b863198100be0ffa (good)
+;; QUESTION SECTION:
+;medirozahospital.com.          IN      MX
+
+;; ANSWER SECTION:
+medirozahospital.com.   5       IN      MX      20 mx3-hosting.jellyfish.systems.
+medirozahospital.com.   5       IN      MX      5 mx1-hosting.jellyfish.systems.
+medirozahospital.com.   5       IN      MX      10 mx2-hosting.jellyfish.systems.
+
+;; Query time: 243 msec
+;; SERVER: 192.168.10.2#53(192.168.10.2) (UDP)
+;; WHEN: Sun Nov 22 09:08:50 EST 2026
+;; MSG SIZE  rcvd: 178
+
+
+┌──(tracyoozie㉿kali)-[~]
+└─$                                                                  
+
+
+
+
+(tracyoozie㉿kali)-[~]
+└─$ theHarvester -d medirozahospital.com -b all                                                                                             
+Read proxies.yaml from /etc/theHarvester/proxies.yaml
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.11.1                                             *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+
+[*] Target: medirozahospital.com 
+
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to process bevigil search for word: 'medirozahospital.com'
+Error Message: 
+[!] Missing API key for bevigil. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for Bitbucket. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to process bufferoverun search for word: 'medirozahospital.com'
+Error Message: 
+[!] Missing API key for bufferoverun. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to perform BuiltWith search for word: 'medirozahospital.com'
+A Missing Key Error occurred in builtwith: 
+[!] Missing API key for BuiltWith. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to process brave search for word: 'medirozahospital.com'
+Error Message: 
+[!] Missing API key for Brave Search. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Censys API key is missing or invalid: 
+[!] Missing API key for Censys ID and/or Secret. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing key error occurred in criminalip: 
+[!] Missing API key for criminalip. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in dehashed: 
+[!] Missing API key for Dehashed. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for DNSDumpster. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in dymo: 
+[!] Missing API key for dymo. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in fullhunt: 
+[!] Missing API key for fullhunt. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Error initializing SearchGithubCode: 
+[!] Missing API key for Github. 
+A Missing Key error occurred in github-code: 
+[!] Missing API key for Github. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for HaveIBeenPwned. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Hunter: 
+[!] Missing API key for Hunter. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Hunter How: 
+[!] Missing API key for hunterhow. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in intelx: 
+[!] Missing API key for Intelx. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+[*] Mojeek: No API key found, using default scraping mode.
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Netlas: 
+[!] Missing API key for netlas. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Unexpected error occurred in Onyphe module: 
+[!] Missing API key for onyphe. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in PentestTools search: 
+[!] Missing API key for PentestTools. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in ProjectDiscovery: 
+[!] Missing API key for ProjectDiscovery. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in RocketReach: 
+[!] Missing API key for RocketReach. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for SecurityScorecard. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred Security Trails: 
+[!] Missing API key for Securitytrail. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in sherlockeye: 
+[!] Missing API key for sherlockeye. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Shodan search: 
+[!] Missing API key for Shodan. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Tomba: 
+[!] Missing API key for Tomba Key and/or Secret. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in venacus search: 
+[!] Missing API key for Venacus. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in virustotal search: 
+[!] Missing API key for virustotal. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in whoisxml search: 
+[!] Missing API key for whoisxml. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in zoomeye: 
+[!] Missing API key for zoomeye. 
+Chaos API error: get access token here https://cloud.projectdiscovery.io
+[*] Searching Chaos. 
+        Searching results.
+[*] Searching Certspotter. 
+[*] Searching CRTsh. 
+[*] Searching Baidu. 
+[*] Searching Duckduckgo. 
+Fofa API error: [-700] 账号无效
+Failed to parse Fofa response: 
+[!] Missing API key for Fofa API (Invalid credentials). 
+[*] Searching Fofa. 
+[*] Searching Hackertarget. 
+2026-11-22 09:10:54,886 - theHarvester.discovery.hudsonrocksearch - INFO - Starting Hudson Rock processing for: medirozahospital.com
+2026-11-22 09:10:54,887 - theHarvester.discovery.hudsonrocksearch - INFO - Starting Hudson Rock search for: medirozahospital.com
+2026-11-22 09:11:04,124 - theHarvester.discovery.hudsonrocksearch - INFO - Domain statistics: 0 total compromised, 0 employees, 0 users
+[*] Searching Gitlab. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+2026-11-22 09:11:05,132 - theHarvester.discovery.hudsonrocksearch - INFO - Hudson Rock search completed. Found 0 hosts, 0 IPs, 0 emails
+2026-11-22 09:11:05,133 - theHarvester.discovery.hudsonrocksearch - INFO - Hudson Rock processing completed successfully: 0 hosts, 0 IPs, 0 emails, 0 stealers
+[*] Searching Hudsonrock. 
+[*] Searching Leaklookup. 
+LeakIX API requires authentication: "Incorrect API Key"
+[*] Searching Leakix. 
+[*] Searching Otx. 
+[*] Searching Rapiddns. 
+[*] Searching Robtex. 
+[*] Searching ShodanInternetDB. 
+[*] Searching Subdomaincenter. 
+[*] Searching Mojeek. 
+[*] Searching Thc. 
+No response from ThreatCrowd API for: medirozahospital.com
+[*] Searching Threatcrowd. 
+[*] Searching Subdomainfinderc99. 
+[*] Searching Commoncrawl. 
+[*] Windvane API key not found. Using limited unauthenticated access.
+[*] Searching Urlscan. 
+[*] API unavailable, using fallback subdomain pattern search...
+[*] Searching Yahoo. 
+[*] Found 3 subdomains using DNS fallback
+[*] Searching Windvane. 
+[*] Searching Waybackarchive. 
+
+[*] No LinkedIn users found.
+
+
+
+[*] LinkedIn Links found: 0
+---------------------
+
+[*] IPs found: 3
+-------------------
+199.188.201.16
+
+[*] No emails found.
+
+[*] No people found.
+
+[*] Hosts found: 4
+---------------------
+ftp.medirozahospital.com
+heartpatient.medirozahospital.com
+heartpatient.medirozahospital.com:199.188.201.16
+mail.medirozahospital.com
+
+[*] Performing SecurityScorecard scan...
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+An exception has occurred in SecurityScorecard scanning: 
+[!] Missing API key for SecurityScorecard. 
+
+[*] Performing BuiltWith scan...
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for BuiltWith. 
+
+┌──(tracyoozie㉿kali)-[~]
+└─$                                                                                                             
+
+
+──(tracyoozie㉿kali)-[~]
+└─$ subfinder -d medirozahospital.com                                                                                                       
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+                projectdiscovery.io
+
+[INF] Current subfinder version v2.17.0 (latest)
+[INF] Loading provider config from /home/tracyoozie/.config/subfinder/provider-config.yaml
+[INF] Enumerating subdomains for medirozahospital.com
+www.medirozahospital.com
+heartpatient.medirozahospital.com
+[INF] Found 2 subdomains for medirozahospital.com in 22 seconds 618 milliseconds
+
+┌──(tracyoozie㉿kali)-[~]
+└─$                                                                                                                                                    
